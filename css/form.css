@@ -49,6 +49,11 @@ button {
     float: right;
 }
 
+button:focus, input:focus, select:focus {
+    transform: scale(1.1);
+}
+
 .titulo {
     margin-left: 8px;
 }
+
